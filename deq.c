@@ -18,7 +18,7 @@ void enqueuerear(queue *q, int ele) {
 
 void enqueuefront(queue *q, int ele) {
 	if(q -> front == -1) {
-		printf("QUEUE UNDERFLOW\n");
+		printf("QUEUE OVERRFLOW\n");
 		return;
 	}
 	q -> a[q -> front] = ele;
